@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="container mx-auto">
+        <header>
+            <nav class="nav flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">Travel Agency</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="btn">Book Now</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1" id="home">
+                <div class="flex">
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <div class="text-center">
+                            <img class="logoimg" src="logoimg.jpg" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">Welcome to Travel Agency</h1>
+                        <p class="text-center">We specialize in crafting personalized travel experiences to the world's
+                            most captivating destinations. Whether you're seeking adventure, relaxation, or cultural
+                            immersion, our expert team is dedicated to making your dream vacation a reality. Let us
+                            handle all the details so you can focus on making unforgettable memories. Start your journey
+                            with us today and discover the extraordinary!</p>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="travelimg" src="travel1.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2" id="services">
+                <h1 class="text-center my-2">What we offer</h1>
+                <p class="text-center my-2">At Travel Agency, we provide personalized travel packages tailored to your
+                    preferences and budget, ensuring your dream vacation becomes a reality. Take advantage of our
+                    exclusive deals and discounts on flights, hotels, and holiday packages to save more on your trips.
+                    Plus, our dedicated 24/7 customer support team is always available to assist you, making your travel
+                    experience seamless and enjoyable. Explore the world with confidence and convenience with us.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Customized Travel Packages</h2>
+                        <ul>
+                            <li>Personalized Itineraries</li>
+                            <li>Expert Planning</li>
+                            <li>Exclusive Deals</li>
+                            <li><button class="btn">Learn More</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Top Destinations</h2>
+                        <ul>
+                            <li>Global Reach</li>
+                            <li>Unique Experiences</li>
+                            <li>Comprehensive Guides</li>
+                            <li><button class="btn">Explore Destinations</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>24/7 Customer Support</h2>
+                        <ul>
+                            <li>24/7 Assistance</li>
+                            <li>Travel Insurance</li>
+                            <li>Easy Booking</li>
+                            <li><button class="btn">Get Support</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3" id="destinations">
+                <h1 class="text-center my-2">Top Destinations</h1>
+                <div class="container mx-auto">
+                    <table class="comptable">
+                        <tr>
+                            <th>Package Name</th>
+                            <th>Duration</th>
+                            <th>Destinations Included</th>
+                            <th>Highlights</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td>Essential Europe</td>
+                            <td>10 Days</td>
+                            <td>Paris, Rome, Berlin</td>
+                            <td>City tours, cultural experiences</td>
+                            <td>Starting at ₹80,000</td>
+                        </tr>
+                        <tr>
+                            <td>Tropical Escape</td>
+                            <td>7 Days</td>
+                            <td>Bali, Maldives</td>
+                            <td>Beach resorts, water sports</td>
+                            <td>Starting at ₹25,000</td>
+                        </tr>
+                        <tr>
+                            <td>Asian Adventure</td>
+                            <td>14 Days</td>
+                            <td>Kyoto, Bangkok, Singapore</td>
+                            <td>Historical sites, culinary tours</td>
+                            <td>Starting at ₹40,000</td>
+                        </tr>
+                        <tr>
+                            <td>Island Getaway</td>
+                            <td>8 Days</td>
+                            <td>Santorini, Maui</td>
+                            <td>Scenic views, outdoor activities</td>
+                            <td>Starting at ₹20,000</td>
+                        </tr>
+                        <tr>
+                            <td>American Road Trip</td>
+                            <td>12 Days</td>
+                            <td>New York, Los Angeles, Las Vegas</td>
+                            <td>Iconic landmarks, entertainment</td>
+                            <td>Starting at ₹50,000</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <hr>
+            <section class="section4" id="contact">
+                <h1 class="text-center">Contact Us</h1>
+                <form class="form">
+                    <input type="text" class="form-input" name="name" placeholder="Name" required>
+                    <input type="number" class="form-input" name="number" placeholder="Phone" required>
+                    <input type="email" class="form-input" name="email" placeholder="Email" required>
+                    <textarea class="text-area" name="message" placeholder="Message" rows="4" required></textarea>
+                    <button type="submit" class="btn-2">Submit</button>
+                </form>
+            </section>
+        </main>
+        <hr>
+        <footer class="text-center">
+            <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
