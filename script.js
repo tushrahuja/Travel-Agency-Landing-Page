@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelectorAll('.navbar li a');
-    const logo = document.querySelector('.logo');
     const nav = document.querySelector('.nav');
 
     window.addEventListener('scroll', function () {
