@@ -1,6 +1,4 @@
-# PRODIGY_WD_01
- 
-I have created a Travel Agency landing page as part of a web development practice. This project showcases my skills in HTML, CSS, and JavaScript, and features an interactive and responsive design suitable for various screen sizes. Below are the details of the files used and what I learned from this project.
+ I have created a Travel Agency landing page as part of a web development practice. This project showcases my skills in HTML, CSS, and JavaScript, and features an interactive and responsive design suitable for various screen sizes. Below are the details of the files used and what I learned from this project.
 
 Files Used:
 1. index.html:
